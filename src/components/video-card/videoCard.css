@@ -1,0 +1,61 @@
+.video-card {
+  max-width: 25rem;
+  position: relative;
+}
+.description-image-container {
+  width: 2rem;
+  flex-shrink: 0;
+}
+.description-heading {
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+}
+.text-description {
+  text-decoration: none;
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+}
+.video-card-description-container {
+  display: flex;
+  gap: var(--md-space);
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.three-don-menu-container {
+  position: relative;
+}
+.three-don-menu-button {
+  border: none;
+  background-color: var(--background-color);
+  cursor: pointer;
+  padding: 0;
+  position: relative;
+}
+.video-card-option-list {
+  position: absolute;
+  z-index: 2;
+  top: 0px;
+  right: 8px;
+  padding-inline-start: 0;
+  background-color: var(--background-color);
+  box-shadow: var(--card-hover-shadow);
+  padding: var(--sm-space);
+  width: 12rem;
+}
+.video-card-option-list .grid-30-70:hover {
+  color: var(--primary-color);
+}
+.video-card-option-list .grid-30-70 {
+  cursor: pointer;
+  gap: 0;
+  align-items: center;
+  margin: var(--sm-space) 0;
+}
+@media only screen and (max-width: 1000px) {
+  .video-card-option-list .grid-30-70 {
+    grid-template-columns: 30% 70%;
+  }
+}

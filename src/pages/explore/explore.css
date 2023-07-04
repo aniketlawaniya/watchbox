@@ -1,0 +1,26 @@
+.video-listing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  column-gap: var(--lg-space);
+  row-gap: var(--xxxl-space);
+  padding: var(--md-space);
+  justify-items: center;
+}
+.chip-btn {
+  border-radius: 10rem;
+}
+.chip-btn:hover {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+.chip-btn-active,
+.chip-btn-active:hover {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+.explore-category-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--md-space);
+  padding: var(--md-space);
+}
