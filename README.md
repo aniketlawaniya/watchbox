@@ -17,9 +17,8 @@ Users can browse videos based on specific categories by applying filters on the 
 Users can create and manage playlists to organize their favorite videos.
 - ### Like/Dislike: 
 Users can express their preference for videos by liking or disliking them.
-- ### 
-Watch Later: Users can save videos to watch later and access them conveniently from their playlist.
-
+- ### Watch Later:
+Users can save videos to watch later and access them conveniently from their playlist.
 - ### History: 
 The application keeps track of the user's viewing history, enabling them to revisit previously watched videos.
 - ### Authentication: 
